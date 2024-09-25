@@ -59,23 +59,15 @@ const About = () => {
     <>
       <div className="flex items-center gap-10 lg:flex-row flex-col">
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Về Chúng tôi</p>
+          <p className={styles.sectionSubText}>Chào mừng bạn đến với GearVN</p>
           <h2 className={`text-white font-bold text-5xl`}>Phạm Quốc Hưng</h2>
+          <p className="text-lg font-semibold mt-2">(Người sáng lập)</p>
         </motion.div>
         <div className="w-[230px] h-[230px] rounded-full overflow-hidden">
           <img src={hung} alt="hung" className="w-full h-full" />
         </div>
       </div>
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        Xin chào tất cả mọi người! Trang web này được tạo ra bởi Phạm Quốc Hưng
-        (BABAWE22370), một sinh viên Quản trị Kinh doanh, như một phần của bài
-        tập cho khóa học Thương mại điện tử tại trường đại học. Tôi chọn laptop
-        chơi game ROG Zephyrus G16 (2024) GU605 làm sản phẩm chính cho dự án này
-        vì tôi rất quan tâm đến công nghệ và cũng là một game thủ.
-      </motion.p>
+
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"

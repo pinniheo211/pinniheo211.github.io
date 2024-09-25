@@ -96,12 +96,17 @@ const Contact = () => {
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Facebook</span>
-            <p className="text-secondary">gearvn.vn</p>
+            <a
+              href="https://www.facebook.com/gearvnhcm"
+              className="text-secondary"
+            >
+              https://www.facebook.com/gearvnhcm
+            </a>
           </label>
 
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Email:</span>
-            <p className="text-secondary">contact@Gearvn.vn</p>
+            <p className="text-secondary">cskh@gearvn.com</p>
           </label>
 
           <label className="flex flex-col">

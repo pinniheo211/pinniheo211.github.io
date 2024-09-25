@@ -10,7 +10,7 @@ import Viruss from "../assets/Viruss.jpg";
 const Review = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} id="review">
         <h2 className={`${styles.sectionHeadText}`}>Đánh giá</h2>
       </motion.div>
       <div className="flex flex-col gap-5 mt-5">

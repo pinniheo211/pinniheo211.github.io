@@ -30,6 +30,10 @@ export const navLinks = [
     title: "Tính năng",
   },
   {
+    id: "review",
+    title: "Đánh giá",
+  },
+  {
     id: "contact",
     title: "Liên hệ",
   },
