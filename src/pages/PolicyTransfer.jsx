@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import { Footer, Navbar } from "../components";
 
 const PolicyTransfer = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />
